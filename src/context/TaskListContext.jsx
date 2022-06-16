@@ -5,7 +5,7 @@ import { createContext, } from "react";
 
 export const TaskListContext = createContext();
 
-const TaskListContextProvider = () =>{
+const TaskListContextProvider = props =>{
 
     const [tasks, setTasks] = useState([
         {task: 'read the book', id: 1},
@@ -14,9 +14,9 @@ const TaskListContextProvider = () =>{
         {task: 'read the book', id: 4}
     ])
     return (
-        <Div>
-            Task List
-        </Div>
+        <TaskListContextProvider vlaue ={{tasks}}>
+        {props.children}
+        </TaskListContextProvider>
     )
 }
 
