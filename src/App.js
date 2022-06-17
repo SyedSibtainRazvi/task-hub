@@ -3,6 +3,7 @@ import TaskList from './components/TaskList'
 import './App.css'
 import TaskListContextProvider from './context/TaskListContext'
 import Header from './components/Header'
+import TaskForm from './components/TaskForm'
 
 const App = () => {
   return (
@@ -11,7 +12,8 @@ const App = () => {
         <div className='app-wrapper'>
           <Header />
           <div className='main'></div>
-        <TaskList />
+          <TaskForm />
+          <TaskList />
         </div>
       </div>
     </TaskListContextProvider>

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Task.css';
 
-const Task = ({task}) => {
+const Task = ({ task }) => {
   return (
     <li className='list-item'>
       <span>{task.title}</span>
