@@ -1,17 +1,21 @@
-import React from 'react'
+import React from 'react';
+import './Task.css';
 
-const Task = () => {
+const Task = ({task}) => {
   return (
-    <>
-   <li>
-    <span> Task Title </span>
-    <div>
-        <button> Taks delete</button>
-        <button> Taks delete</button>
+    <li className='list-item'>
+      <span>{task.title}</span>
+      <div>
+        <button
+          className="btn-delete task-btn">
+          <i className="fas fa-trash-alt"></i>
+        </button>
 
-    </div>
-   </li>
-   </>
+        <button className="btn-edit task-btn">
+          <i className="fas fa-pen"></i>
+        </button>
+      </div>
+    </li>
   )
 }
 

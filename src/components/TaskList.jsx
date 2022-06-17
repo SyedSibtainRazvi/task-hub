@@ -8,9 +8,9 @@ const {tasks} = useContext(TaskListContext)
 
   return (
     <>
-    <ul>
-        {tasks.map(task => {
-            return <Task />
+    <ul className='list'>
+        {tasks.map((task) => {
+            return <Task task={task} key={task.id} />;
         })}
     </ul>
     </>
