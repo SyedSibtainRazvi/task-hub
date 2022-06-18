@@ -40,7 +40,7 @@ const TaskForm = () => {
                 <input value={title} onChange={handleChange} type="text" placeholder='Add Task...' required className='task-input' />
                 <div className='buttons'>
                     <button type='submit' className='btn add-task-btn'>
-                        {editItem !== null ? 'EditTask' : 'AddTask'}
+                        {editItem !== null ? 'Edit Task' : 'Add Task'}
                     </button>
                     <button onClick={clearList} className='btn clear-btn'>Clear</button>
                 </div>

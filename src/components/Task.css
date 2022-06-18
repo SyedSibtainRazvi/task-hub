@@ -1,29 +1,29 @@
-  .list-item {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 0;
-    padding-bottom: 5px;
-  }
-  
-  .list-item span {
-    color: #999;
-  }
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding-bottom: 5px;
+}
 
-  .task-btn {
-    cursor: pointer;
-    background-color: transparent;
-    border: none;
-    outline: none;
-  }
-  
-  .btn-delete i {
-    font-size: 16px;
-    color: #bbb;
-    margin-right: 20px;
-  }
-  
-  .btn-edit i {
-    font-size: 16px;
-    color: #bbb;
-    margin-right: 20px;
-  }
+.list-item span {
+  color: #999;
+}
+
+.task-btn {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.btn-delete i {
+  font-size: 16px;
+  color: #bbb;
+  margin-right: 20px;
+}
+
+.btn-edit i {
+  font-size: 16px;
+  color: #bbb;
+  margin-right: 20px;
+}
