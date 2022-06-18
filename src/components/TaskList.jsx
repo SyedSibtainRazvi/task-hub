@@ -14,7 +14,10 @@ const TaskList = () => {
             return <Task task={task} key={task.id} />;
           })}
         </ul> : 
-        <div className='no-tasks'> No Tasks </div>
+        <div style= {{color:'#777',
+        textAlign: 'center',
+        fontSize: '18px',
+        marginTop: '20px'}}> No Tasks </div>
     }
     </div>
   )
