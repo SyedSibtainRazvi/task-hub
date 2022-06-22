@@ -34,11 +34,15 @@
 h3 {
   width: 30%;
   margin-right: 3rem;
-  font-family:sans-serif;
+  font-family: sans-serif;
 }
 
 @media screen and (max-width: 800px) {
   .hide-mobile {
     display: none;
+  }
+
+  .app-wrapper {
+    min-width: 90vw;
   }
 }
